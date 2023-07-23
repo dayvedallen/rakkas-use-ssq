@@ -1,0 +1,1 @@
+import{_ as t}from"./rakkasClientEntry.b9d1bfe0.js";const _=()=>t(()=>import("./index.page.f14fd476.js"),["assets/index.page.f14fd476.js","assets/rakkasClientEntry.b9d1bfe0.js"]),a=[[/^\/?$/,[_]]];export{a as default};

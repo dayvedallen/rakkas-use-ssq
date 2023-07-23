@@ -1,0 +1,29 @@
+{
+  "virtual:rakkasjs:client-entry": {
+    "file": "assets/rakkasClientEntry.b9d1bfe0.js",
+    "src": "virtual:rakkasjs:client-entry",
+    "isEntry": true,
+    "dynamicImports": [
+      "virtual:rakkasjs:client-page-routes"
+    ]
+  },
+  "virtual:rakkasjs:client-page-routes": {
+    "file": "assets/virtual_rakkasjs_client-page-routes.377fca3f.js",
+    "src": "virtual:rakkasjs:client-page-routes",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:rakkasjs:client-entry"
+    ],
+    "dynamicImports": [
+      "src/routes/index.page.tsx"
+    ]
+  },
+  "src/routes/index.page.tsx": {
+    "file": "assets/index.page.f14fd476.js",
+    "src": "src/routes/index.page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:rakkasjs:client-entry"
+    ]
+  }
+}
